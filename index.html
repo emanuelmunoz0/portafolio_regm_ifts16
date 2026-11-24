@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio personal de Rodrigo Emanuel Gomez Muñoz, Desarrollador Frontend y estudiante de Desarrollo de Software.">
+  <title>Rodrigo Gomez Muñoz | Desarrollador Frontend</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="inicio">
+  <header class="encabezado-sitio">
+    <nav class="navegacion contenedor" aria-label="Navegación principal">
+      <a class="marca-navegacion" href="#inicio" aria-label="Ir al inicio">Rodrigo E. Gomez Muñoz</a>
+      <button class="boton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="menu-navegacion" id="menu-principal">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#que-hago">Qué hago</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="portada seccion" aria-labelledby="titulo-principal">
+      <div class="contenedor cuadricula-portada">
+        <div class="contenido-portada">
+          <p class="texto-intro">Portfolio personal</p>
+          <h1 id="titulo-principal">Rodrigo Emanuel Gomez Muñoz</h1>
+          <h2>Desarrollador Frontend</h2>
+          <p class="texto-portada">Estudiante de la Tecnicatura Superior en Desarrollo de Software en el IFTS N.º 16, interesado en crear páginas web y aplicaciones móviles.</p>
+          <div class="acciones-portada">
+            <a class="boton boton-principal" href="#proyectos">Ver proyectos</a>
+            <a class="boton boton-secundario" href="#contacto">Contactarme</a>
+          </div>
+        </div>
+        <div class="marco-foto">
+          <img class="foto-perfil" src="img/perfil.webp" alt="Fotografía de Rodrigo Emanuel Gomez Muñoz">
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" id="sobre-mi" aria-labelledby="sobre-titulo">
+      <div class="contenedor">
+        <p class="etiqueta-seccion">Sobre mí</p>
+        <h2 class="titulo-seccion" id="sobre-titulo">Mi historia y objetivos</h2>
+        <div class="contenido-sobre-mi">
+          <aside class="tarjeta-superpoder">
+            <span class="marca-cita" aria-hidden="true">“</span>
+            <p>Quiero ese superpoder.</p>
+          </aside>
+          <div class="texto-sobre-mi">
+            <p>Mi interés por la informática comenzó cuando tenía aproximadamente 10 años. Recuerdo haber visto a una persona escribiendo código mientras aparecían bloques en la pantalla. En ese momento pensé: «Quiero ese superpoder». Aunque todavía no entendía realmente qué era programar, esa curiosidad se mantuvo conmigo hasta el día de hoy.</p>
+            <p>Actualmente soy estudiante de Desarrollo de Software en el IFTS N.º 16. Me considero una persona analítica, responsable y curiosa, con muchas ganas de seguir aprendiendo y superándome.</p>
+            <p>Disfruto especialmente crear páginas web y aplicaciones móviles. Para continuar desarrollándome, complemento mi formación académica con cursos de TalentoTech y Tecno3F.</p>
+            <p>Mi objetivo profesional es convertirme en un desarrollador senior con conocimientos profundos en las tecnologías que utilice. Más que conocer muchas herramientas superficialmente, quiero comprenderlas a fondo y desarrollar la capacidad de resolver problemas complejos y poco habituales.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion seccion-alterna" id="que-hago" aria-labelledby="que-hago-titulo">
+      <div class="contenedor">
+        <p class="etiqueta-seccion">Qué hago</p>
+        <h2 class="titulo-seccion" id="que-hago-titulo">Áreas de desarrollo que me interesan</h2>
+        <div class="cuadricula-intereses">
+          <article class="tarjeta-interes">
+            <div class="icono-interes" aria-hidden="true">
+              <img class="icono-archivo" src="assets/icons/desarrollo-web.svg" alt="">
+            </div>
+            <h3>Desarrollo web</h3>
+            <ul>
+              <li>Creación de páginas web.</li>
+              <li>Estructuración de contenido mediante HTML.</li>
+              <li>Diseño y presentación de interfaces mediante CSS.</li>
+              <li>Incorporación de interactividad mediante JavaScript.</li>
+            </ul>
+          </article>
+          <article class="tarjeta-interes">
+            <div class="icono-interes" aria-hidden="true">
+              <img class="icono-archivo" src="assets/icons/aplicaciones-moviles.svg" alt="">
+            </div>
+            <h3>Aplicaciones móviles</h3>
+            <ul>
+              <li>Creación de aplicaciones para dispositivos móviles.</li>
+              <li>Diseño de interfaces.</li>
+              <li>Desarrollo de funcionalidades.</li>
+              <li>Interés por profundizar en este campo.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" id="habilidades" aria-labelledby="habilidades-titulo">
+      <div class="contenedor">
+        <p class="etiqueta-seccion">Habilidades</p>
+        <h2 class="titulo-seccion" id="habilidades-titulo">Tecnologías clave</h2>
+        <div class="cuadricula-habilidades" aria-label="Tecnologías conocidas">
+          <article class="tarjeta-habilidad">
+            <span class="icono-habilidad" aria-hidden="true"><img src="assets/icons/html5.svg" alt=""></span>
+            <h3>HTML5</h3>
+            <p>La estructura base de mis páginas web.</p>
+          </article>
+          <article class="tarjeta-habilidad">
+            <span class="icono-habilidad" aria-hidden="true"><img src="assets/icons/css3.svg" alt=""></span>
+            <h3>CSS3</h3>
+            <p>Estilos, diseño responsive y presentación visual.</p>
+          </article>
+          <article class="tarjeta-habilidad">
+            <span class="icono-habilidad" aria-hidden="true"><img src="assets/icons/javascript.svg" alt=""></span>
+            <h3>JavaScript</h3>
+            <p>Interactividad y manipulación del DOM.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion seccion-alterna" id="proyectos" aria-labelledby="proyectos-titulo">
+      <div class="contenedor">
+        <p class="etiqueta-seccion">Portfolio</p>
+        <h2 class="titulo-seccion" id="proyectos-titulo">Proyectos destacados</h2>
+        <div class="cuadricula-proyectos">
+          <article class="tarjeta-proyecto">
+            <div class="carrusel" data-carousel="proyecto1" aria-label="Carrusel de la tienda de té Cura Té Alma">
+              <div class="vista-carrusel">
+                <img class="imagen-carrusel activa" src="img/proyecto1-1.webp" alt="Captura de la tienda de té Cura Té Alma, imagen 1">
+                <img class="imagen-carrusel" src="img/proyecto1-2.webp" alt="Captura de la tienda de té Cura Té Alma, imagen 2">
+                <img class="imagen-carrusel" src="img/proyecto1-3.webp" alt="Captura de la tienda de té Cura Té Alma, imagen 3">
+              </div>
+              <button class="boton-carrusel anterior-carrusel" type="button" aria-label="Imagen anterior"><img src="assets/icons/flecha.svg" alt=""></button>
+              <button class="boton-carrusel siguiente-carrusel" type="button" aria-label="Imagen siguiente"><img src="assets/icons/flecha.svg" alt=""></button>
+              <div class="indicadores-carrusel" aria-label="Seleccionar imagen">
+                <button class="punto-carrusel activa" type="button" aria-label="Mostrar imagen 1" aria-current="true"></button>
+                <button class="punto-carrusel" type="button" aria-label="Mostrar imagen 2"></button>
+                <button class="punto-carrusel" type="button" aria-label="Mostrar imagen 3"></button>
+              </div>
+            </div>
+            <div class="contenido-proyecto">
+              <p class="estado-proyecto">TPO 1 y 2 · IFTS N.º 16</p>
+              <h3>Tienda de té – Cura Té Alma</h3>
+              <p class="descripcion-proyecto">Rediseño temático de una tienda de té. Se conserva la estructura, las tipografías y los estilos generales de la referencia, con contenido propio y una paleta en blanco, negro y marrón dorado.</p>
+              <p class="tecnologias-proyecto"><strong>Tecnologías:</strong> HTML5, CSS3 y JavaScript.</p>
+              <a class="boton-github" href="https://github.com/nicoHernan/Frontend_TPO1Y2_Ifts16" target="_blank" rel="noopener noreferrer">
+                <img class="icono-archivo" src="assets/icons/github.svg" alt="">GitHub
+              </a>
+            </div>
+          </article>
+
+          <article class="tarjeta-proyecto">
+            <div class="carrusel" data-carousel="proyecto2" aria-label="Carrusel de Flash News, edición Argentina">
+              <div class="vista-carrusel">
+                <img class="imagen-carrusel activa" src="img/proyecto2-1.webp" alt="Captura de Flash News, edición Argentina, imagen 1">
+                <img class="imagen-carrusel" src="img/proyecto2-2.webp" alt="Captura de Flash News, edición Argentina, imagen 2">
+                <img class="imagen-carrusel" src="img/proyecto2-3.webp" alt="Captura de Flash News, edición Argentina, imagen 3">
+              </div>
+              <button class="boton-carrusel anterior-carrusel" type="button" aria-label="Imagen anterior"><img src="assets/icons/flecha.svg" alt=""></button>
+              <button class="boton-carrusel siguiente-carrusel" type="button" aria-label="Imagen siguiente"><img src="assets/icons/flecha.svg" alt=""></button>
+              <div class="indicadores-carrusel" aria-label="Seleccionar imagen">
+                <button class="punto-carrusel activa" type="button" aria-label="Mostrar imagen 1" aria-current="true"></button>
+                <button class="punto-carrusel" type="button" aria-label="Mostrar imagen 2"></button>
+                <button class="punto-carrusel" type="button" aria-label="Mostrar imagen 3"></button>
+              </div>
+            </div>
+            <div class="contenido-proyecto">
+              <p class="estado-proyecto">TPO 2 · IFTS N.º 16</p>
+              <h3>Flash News — Edición Argentina</h3>
+              <p class="descripcion-proyecto">Reproducción frontend de la portada de elDiarioAR, con noticias argentinas cargadas dinámicamente desde Currents API y enlaces a sus publicaciones originales.</p>
+              <p class="tecnologias-proyecto"><strong>Tecnologías:</strong> HTML5, CSS3, JavaScript y Currents API.</p>
+              <a class="boton-github" href="https://github.com/emanuelmunoz0/t2_frontend_ifts16" target="_blank" rel="noopener noreferrer">
+                <img class="icono-archivo" src="assets/icons/github.svg" alt="">GitHub
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" id="educacion" aria-labelledby="educacion-titulo">
+      <div class="contenedor">
+        <p class="etiqueta-seccion">Educación y formación</p>
+        <h2 class="titulo-seccion" id="educacion-titulo">Formación académica y complementaria</h2>
+        <div class="cuadricula-educacion">
+          <article class="tarjeta-educacion educacion-principal">
+            <p class="tipo-educacion">Formación académica</p>
+            <h3>IFTS N.º 16</h3>
+            <p>Tecnicatura Superior en Desarrollo de Software.</p>
+          </article>
+          <article class="tarjeta-educacion">
+            <p class="tipo-educacion">Formación complementaria</p>
+            <h3>TalentoTech</h3>
+            <p>Cursos ofrecidos por el Gobierno de la Ciudad Autónoma de Buenos Aires.</p>
+          </article>
+          <article class="tarjeta-educacion">
+            <p class="tipo-educacion">Formación complementaria</p>
+            <h3>Tecno3F</h3>
+            <p>Cursos ofrecidos por el partido de Tres de Febrero, provincia de Buenos Aires.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion seccion-alterna" id="contacto" aria-labelledby="contacto-titulo">
+      <div class="contenedor">
+        <p class="etiqueta-seccion">Contacto</p>
+        <h2 class="titulo-seccion" id="contacto-titulo">Conversemos</h2>
+        <div class="cuadricula-contacto">
+          <a class="tarjeta-contacto" href="mailto:emanuelmunoz695@gmail.com">
+            <span class="icono-contacto" aria-hidden="true"><img class="icono-archivo" src="assets/icons/gmail.svg" alt=""></span>
+            <span>
+              <strong>Correo electrónico</strong>
+              <small>emanuelmunoz695@gmail.com</small>
+            </span>
+          </a>
+          <a class="tarjeta-contacto" href="https://wa.me/5491122516925" target="_blank" rel="noopener noreferrer">
+            <span class="icono-contacto" aria-hidden="true"><img class="icono-archivo" src="assets/icons/whatsapp.svg" alt=""></span>
+            <span>
+              <strong>WhatsApp</strong>
+              <small>+54 9 11 2251 6925</small>
+            </span>
+          </a>
+          <a class="tarjeta-contacto" href="https://github.com/emanuelmunoz0" target="_blank" rel="noopener noreferrer">
+            <span class="icono-contacto" aria-hidden="true"><img class="icono-archivo" src="assets/icons/github.svg" alt=""></span>
+            <span>
+              <strong>GitHub</strong>
+              <small>github.com/emanuelmunoz0</small>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie-sitio">
+    <div class="contenedor contenido-pie">
+      <div>
+        <p class="nombre-pie">Rodrigo Emanuel Gomez Muñoz</p>
+        <p>Desarrollador Frontend</p>
+      </div>
+      <nav class="navegacion-pie" aria-label="Navegación del pie de página">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a class="github-pie" href="https://github.com/emanuelmunoz0" target="_blank" rel="noopener noreferrer">
+        <img class="icono-archivo" src="assets/icons/github.svg" alt="">GitHub
+      </a>
+    </div>
+    <div class="contenedor cierre-pie">
+      <p>&copy; <span id="anio-pie"></span> Rodrigo Emanuel Gomez Muñoz</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
